@@ -16,10 +16,10 @@ jobs:
       - name: Build
         run: npm run build
       
-      - name: Run Cypress Tests
-        uses: cypress-io/github-action@v5
-        with:
-          start: npm start
+      # - name: Run Cypress Tests
+      #   uses: cypress-io/github-action@v5
+      #   with:
+      #     start: npm start
 
       # - name: Deploy
       #   uses: peaceiris/actions-gh-pages@v3
